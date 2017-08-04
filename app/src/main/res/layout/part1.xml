@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ajaymehta.xmldesign2.MainActivity">
+
+    <!--just taken three linearlayout with weights ..-->
+    <!--just take three textview [wrap content] and gravity set by
+    parent layout ..-->
+
+    <LinearLayout
+        android:gravity="top|center"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India" />
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#fff"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India" />
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India" />
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/sixteen"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India" />
+    </LinearLayout>
+
+
+</LinearLayout>
